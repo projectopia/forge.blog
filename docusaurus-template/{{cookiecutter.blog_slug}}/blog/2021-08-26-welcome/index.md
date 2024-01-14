@@ -1,7 +1,7 @@
 ---
 slug: welcome
 title: Welcome
-authors: [lelouvincx]
+authors: [lelouvincx, thangbuiq]
 tags: [facebook, hello, docusaurus]
 ---
 
