@@ -1,17 +1,11 @@
-endi:
-  name: Endilie Yacop Sucipto
-  title: Maintainer of Docusaurus
-  url: https://github.com/endiliey
-  image_url: https://github.com/endiliey.png
+thangbuiq:
+  name: Thang Bui Quang
+  title: Developer of Projectopia
+  url: https://github.com/thangbuiq
+  image_url: https://github.com/thangbuiq.png
 
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
-
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
+lelouvincx:
+  name: Chinh Dinh Minh
+  title: Developer of Projectopia
+  url: https://github.com/lelouvincx
+  image_url: https://github.com/lelouvincx.png

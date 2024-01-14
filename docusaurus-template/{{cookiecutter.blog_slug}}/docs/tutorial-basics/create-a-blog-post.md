@@ -15,14 +15,15 @@ Create a file at `blog/2021-02-28-greetings.md`:
 slug: greetings
 title: Greetings!
 authors:
-  - name: Joel Marcey
-    title: Co-creator of Docusaurus 1
-    url: https://github.com/JoelMarcey
-    image_url: https://github.com/JoelMarcey.png
-  - name: Sébastien Lorber
-    title: Docusaurus maintainer
-    url: https://sebastienlorber.com
-    image_url: https://github.com/slorber.png
+  - name: Thang Bui Quang
+    title: Developer of Projectopia
+    url: https://github.com/thangbuiq
+    image_url: https://github.com/thangbuiq.png
+
+  - name: Chinh Dinh Minh
+    title: Developer of Projectopia
+    url: https://github.com/lelouvincx
+    image_url: https://github.com/lelouvincx.png
 tags: [greetings]
 ---
 

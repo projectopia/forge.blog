@@ -2,10 +2,11 @@
 slug: first-blog-post
 title: First Blog Post
 authors:
-  name: Gao Wei
-  title: Docusaurus Core Team
-  url: https://github.com/wgao19
-  image_url: https://github.com/wgao19.png
+  name: Thang Bui Quang
+  title: Developer of Projectopia
+  url: https://github.com/thangbuiq
+  image_url: https://github.com/thangbuiq.png
+
 tags: [hola, docusaurus]
 ---
 
