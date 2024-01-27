@@ -1,0 +1,6 @@
+{
+  "blog_name": "Input your blog name",
+  "blog_slug": "{{ cookiecutter.blog_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "blog_tagline": "Write a tagline for your blog",
+  "github_username": "Input your github username"
+}
