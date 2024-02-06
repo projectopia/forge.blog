@@ -1,0 +1,107 @@
+site_name: {{cookiecutter.blog_name}}
+repo_url: https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.blog_slug}}
+copyright: Copyright &copy; 2024 Projectopia
+theme:
+  name: material
+  palette:
+
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: deep purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+  font:
+    text: Inter
+    code: JetBrains Mono
+
+  icon:
+    logo: material/github
+    repo: fontawesome/brands/github
+    previous: fontawesome/solid/angle-left
+    next: fontawesome/solid/angle-right
+
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.instant.preview
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+    - announce.dismiss
+
+plugins:
+  - search
+  - offline
+
+extra:
+  generator: true
+  # consent:
+  #   title: Cookie consent
+  #   description: >-
+  #     We use cookies to recognize your repeated visits and preferences, as well
+  #     as to measure the effectiveness of our documentation and whether users
+  #     find what they're searching for. With your consent, you're helping us to
+  #     maextra:
+
+  # analytics: 
+  #   feedback:
+  #     title: Was this page helpful?
+  #     ratings:
+  #       - icon: material/emoticon-happy-outline
+  #         name: This page was helpful
+  #         data: 1
+  #         note: >-
+  #           Thanks for your feedback!
+  #       - icon: material/emoticon-sad-outline
+  #         name: This page could be improved
+  #         data: 0
+  #         note: >- 
+  #           Thanks for your feedback! Help us improve this page by
+  #           using our <a href="..." target="_blank" rel="noopener">feedback form</a>.ke our documentation better.
+  #   provider: google
+  #   property: G-XXXXXXXXXX
+
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.blog_slug}}/
+    # - icon: fontawesome/brands/gitlab
+    #   link: https://gitlab.com/
+    # - icon: fontawesome/brands/x-twitter
+    #   link: https://twitter.com/
+    # - icon: fontawesome/brands/docker
+    #   link: https://docker.com
+    # - icon: fontawesome/brands/facebook
+    #   link: https://facebook.com/
+    # - icon: fontawesome/brands/instagram
+    #   link: https://instagram.com/
+    # - icon: fontawesome/brands/linkedin
+    #   link: https://linkedin.com/
+    # - icon: fontawesome/brands/slack
+    #   link: https://slack.com/
+    # - icon: fontawesome/brands/discord
+    #   link: https://discord.com/
